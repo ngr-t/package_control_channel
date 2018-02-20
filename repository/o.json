@@ -34,6 +34,18 @@
 			]
 		},
 		{
+			"name": "Object Pascal",
+			"details" : "https://github.com/avdotion/pascal-snippets",
+			"labels": ["language syntax"],
+			"previous_names": ["Free Pascal Support"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Objective-C Autocompletion",
 			"details": "https://github.com/oliverseal/objective-c-autocomplete-sublimetext",
 			"releases": [
@@ -50,18 +62,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "OCaml",
-			"details": "https://github.com/whitequark/sublime-better-ocaml",
-			"description": "An improved version of default OCaml package",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
 					"branch": "master"
 				}
 			]
@@ -120,6 +120,16 @@
 			]
 		},
 		{
+			"name": "ocp-indent",
+			"details": "https://github.com/bluepichu/sublime-text-ocp-indent",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Octo",
 			"details": "https://github.com/mattmikolay/octo-sublime",
 			"labels": ["language syntax", "chip8"],
@@ -159,6 +169,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Odin",
+			"details": "https://github.com/gingerBill/sublime-odin",
+			"labels": ["odin", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -372,6 +393,17 @@
 			]
 		},
 		{
+			"name": "Open Files In List",
+			"details": "https://github.com/Wargazm/open_files_in_list",
+			"labels": ["file open", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Open Folder",
 			"details": "https://github.com/mikepfirrmann/openfolder",
 			"labels": ["file navigation"],
@@ -379,6 +411,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Open In Browser",
+			"details": "https://github.com/vicke4/open_in_browser",
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
 				}
 			]
 		},
@@ -395,6 +437,18 @@
 		{
 			"name": "Open in Nautilus",
 			"details": "https://github.com/glutanimate/sublime-open-in-nautilus",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": "linux",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Open in Nemo",
+			"details": "https://github.com/maddouri/sublime-open-in-nemo",
 			"labels": ["file navigation"],
 			"releases": [
 				{
@@ -534,17 +588,6 @@
 			]
 		},
 		{
-			"name": "open-sesame",
-			"details": "https://github.com/gerardroche/sublime-open-sesame",
-			"labels": ["open folders", "open projects", "power user", "project", "project management", "window", "workspace"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "OpenBSD PF conf syntax highlight",
 			"details": "https://github.com/paukstis/sublimetext-packetfilter-syntax",
 			"labels": ["language syntax"],
@@ -561,6 +604,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OpenedFiles",
+			"details": "https://github.com/qiray/SublimeOpenedFiles",
+			"labels": ["file navigation", "file open", "sidebar"],
+			"releases": [
+				{
+					"sublime_text": ">3000",
 					"tags": true
 				}
 			]
@@ -603,7 +657,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -703,6 +757,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Oracle",
+			"details": "https://github.com/Thom1729/sublime-oracle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -816,6 +881,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Oz",
+			"details": "https://github.com/rkoeninger/sublime-oz",
+			"readme": "https://raw.githubusercontent.com/rkoeninger/sublime-oz/master/README.md",
+			"author": "Robert Koeninger",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

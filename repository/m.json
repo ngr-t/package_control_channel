@@ -34,6 +34,19 @@
 			]
 		},
 		{
+			"name": "MacDictionary",
+			"details": "https://github.com/gh640/SublimeMacDictionary",
+			"author": "Goto Hayato",
+			"labels": ["mac", "dictionary"],
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MacDown App Menu",
 			"details": "https://github.com/diimdeep/sublime-text-macdown-app-menu",
 			"labels": ["markdown", "preview", "editor", "macdown.app"],
@@ -41,6 +54,16 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Mackerel Syntax Highlighting",
+			"details": "https://github.com/Phillip3/mackerel_syntax_highlighting",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -161,6 +184,17 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Make Automatic Variables",
+			"details": "https://github.com/roperzh/sublime-make-auto-vars",
+			"labels": ["snippets", "makefile"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -304,6 +338,16 @@
 			]
 		},
 		{
+			"name": "MapTool Syntax",
+			"details": "https://github.com/wwmoraes/Sublime-MapTool-Syntax",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Marc Mentat Proc Highlighting",
 			"details": "https://github.com/WesleyPeijnenburg/Marc_Syntax_Support",
 			"labels": ["language syntax"],
@@ -361,6 +405,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Markdown Numbered Headers",
+			"details": "https://github.com/weituotian/md_numbered_headers",
+			"labels": ["markdown", "headers", "numbered headers"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -434,6 +489,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MarkdownComplements",
+			"details": "https://github.com/junShimoji/MarkdownComplements",
+			"releases": [
+				{
+					"sublime_text": "<3000",
 					"tags": true
 				}
 			]
@@ -565,16 +630,6 @@
 			]
 		},
 		{
-			"name": "Marksy Convert",
-			"details": "https://github.com/thomscode/marksy-convert",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Mask",
 			"details": "https://github.com/tenbits/sublime-mask",
 			"releases": [
@@ -626,6 +681,18 @@
 			]
 		},
 		{
+			"name": "Material Design Lite Selectors Snippets",
+			"details": "https://github.com/rasy-js/material-design-lite-snippets",
+			"labels": ["snippets"],
+			"author": "Aliaksandr Radzevich",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Material Design Lite Snippets",
 			"details": "https://github.com/arindampradhan/material-lite-snippet",
 			"labels": ["snippets"],
@@ -634,6 +701,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": ["osx", "linux", "windows"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Material Monokai",
+			"details": "https://github.com/hlrossato/material-monokai",
+			"labels": ["color scheme", "material design", "monokai"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -724,6 +802,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Math Notes",
+			"details": "https://github.com/LemonPi/math-notes",
+			"labels": ["language syntax", "documentation", "notes"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MathML",
+			"details": "https://github.com/Sensibility/MathML-Sublime-Plugin",
+			"labels": ["language syntax", "syntax", "MathML-syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -881,6 +981,17 @@
 			]
 		},
 		{
+			"name": "MCFunction",
+			"details": "https://github.com/AjaxGb/Sublime-MCFunction",
+			"labels": ["language syntax", "minecraft"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MDL Language",
 			"details": "https://github.com/ardenpm/sublime-mdl-language",
 			"labels" : ["language syntax"],
@@ -1019,11 +1130,56 @@
 			]
 		},
 		{
+			"name": "Merge Windows",
+			"details": "https://github.com/chinchin96/SublimeText-Merge-Windows",
+			"author": "Chinedu Ezeamuzie",
+			"donate": "http://paypal.me/chinchin96",
+			"labels": [
+				"merge windows",
+				"merge tabs",
+				"group tabs",
+				"join windows",
+				"consolidate windows",
+				"tab management",
+				"manage tabs"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Merlin",
 			"details": "https://github.com/cynddl/sublime-text-merlin",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Mermaid",
+			"details": "https://github.com/hlfcoding/sublime-mermaid",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"platforms": ["osx"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Meson",
+			"description": "Meson Build syntax",
+			"author": "Salamandar (Félix Piédallu)",
+			"details": "https://github.com/salamandar/SublimeMeson",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1367,6 +1523,17 @@
 			]
 		},
 		{
+			"name": "MissingFindPanelKeys",
+			"details": "https://github.com/mattst/SublimeMissingFindPanelKeys",
+			"labels": ["search"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "MIST",
 			"details": "https://github.com/Vizzle/SublimePluginForMIST",
 			"releases": [
@@ -1409,10 +1576,11 @@
 			]
 		},
 		{
-			"name": "Miva Template Language (MVT)",
-			"details": "https://github.com/mghweb/Miva-Template-Language",
+			"name": "Miva IDE",
+			"previous_names": ["Miva Template Language (MVT)"],
+			"details": "https://github.com/mghweb/sublime-miva-ide",
 			"author": "Max Hegler",
-			"labels": ["miva", "mvt", "syntax", "language"],
+			"labels": ["miva", "mvt", "mivascript", "miva script", "language syntax", "snippets", "auto-complete", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1663,7 +1831,7 @@
 		},
 		{
 			"name": "Monaco",
-			"details": "https://github.com/mramzn/monaco-colorscheme",
+			"details": "https://github.com/lightify97/monaco-colorscheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1676,6 +1844,16 @@
 			"name": "Monarch",
 			"details": "https://github.com/ericmagnuson/Monarch",
 			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Mongo Aggregate Snippets",
+			"details": "https://github.com/kioyong/Mongo-Aggregate-Snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1791,6 +1969,17 @@
 			]
 		},
 		{
+			"name": "Monokai Dark",
+			"details": "https://github.com/thatal/Monokai-Dark",
+			"labels": ["Monokai Dark", "Scheme", "seti_UI"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Monokai Extended",
 			"details": "https://github.com/jonschlinkert/sublime-monokai-extended",
 			"releases": [
@@ -1840,6 +2029,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Monokai++",
+			"details": "https://github.com/dcasella/monokai-plusplus",
+			"labels": ["monokai", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MonokaiFree",
+			"details": "https://github.com/gerardroche/sublime-monokai-free",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2169,7 +2380,7 @@
 		},
 		{
 			"name": "MultiLang Color Scheme",
-			"details": "https://github.com/ProjectCleverWeb/MultiLang",
+			"details": "https://github.com/ProjectCleverWeb/MultiLang-Color-Schemes",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -2199,6 +2410,28 @@
 			]
 		},
 		{
+			"name": "MultiValue BASIC",
+			"details": "https://github.com/ianharper/Sublime-Text-MVBasic-Syntax",
+			"labels": ["language syntax", "snippets", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "MUMPS",
+			"details": "https://github.com/ksherlock/MUMPS.tmbundle",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Murphi",
 			"details": "https://bitbucket.org/timlinsc/sublimemurphi",
 			"labels": ["text syntax", "syntax"],
@@ -2218,6 +2451,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Mustache",
+			"details": "https://github.com/cedeber/sublime-mustache",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

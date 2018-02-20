@@ -46,8 +46,9 @@
 			]
 		},
 		{
-			"name": "Backbone Baguette",
-			"details": "https://github.com/spacenick/SublimeText2-BackboneBaguette-package",
+			"name": "Backbone",
+			"details": "https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package",
+			"previous_names": ["Backbone.js"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -56,8 +57,8 @@
 			]
 		},
 		{
-			"name": "Backbone.js",
-			"details": "https://github.com/tomasztunik/Sublime-Text-2-Backbone.js-package",
+			"name": "Backbone Baguette",
+			"details": "https://github.com/spacenick/SublimeText2-BackboneBaguette-package",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -251,6 +252,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Beau",
+			"details": "https://github.com/Seich/sublime-beau",
+			"labels": ["http", "rest client"],
+			"releases": [
+				{
+					"sublime_text": ">=3143",
 					"tags": true
 				}
 			]
@@ -494,6 +506,30 @@
 			]
 		},
 		{
+			"name": "Better Less",
+			"details": "https://github.com/radium-v/better-less",
+			"labels": ["less", "language syntax", "css"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Better OCaml",
+			"details": "https://github.com/whitequark/sublime-better-ocaml",
+			"description": "An improved version of default OCaml package",
+			"labels": ["language syntax"],
+			"previous_names": ["OCaml"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
+				}
+			]
+		},
+		{
 			"name": "Better RSpec",
 			"details": "https://github.com/fnando/better-rspec-for-sublime-text",
 			"labels": ["language syntax", "snippets"],
@@ -516,10 +552,32 @@
 			]
 		},
 		{
+			"name": "BetterFindNext",
+			"details": "https://github.com/notbaab/BetterFindNext",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BetterSnippetManager",
 			"details": "https://github.com/math2001/BetterSnippetManager",
 			"labels": ["snippets", "utilities", "file open", "code navigation", "utils", "file creation"],
 			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BetterSwitchHeaderImplementation",
+			"details": "https://github.com/rwols/BetterSwitchHeaderImplementation",
+			"labels": ["utilities", "file open", "code navigation", "c", "c++", "objective-c", "objective-c++"],
+			"releases":
+			[
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -642,6 +700,20 @@
 			]
 		},
 		{
+			"name": "bioSyntax",
+			"details": "https://github.com/bioSyntax/bioSyntax-sublime",
+			"homepage": "http://bioSyntax.org",
+			"readme": "https://raw.githubusercontent.com/bioSyntax/bioSyntax/master/README.md",
+			"issues": "https://github.com/bioSyntax/bioSyntax/issues",
+			"labels": [ "science", "bioinformatics", "biology", "language syntax" ],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bison",
 			"details": "https://bitbucket.org/artyom_smirnov/sublime-text-bison-highlighter",
 			"labels": ["language syntax"],
@@ -739,16 +811,6 @@
 			"name": "Blade Snippets",
 			"details": "https://github.com/dev4dev/blade-snippets",
 			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Blade Spacer",
-			"details": "https://github.com/austenc/blade-spacer",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -981,6 +1043,16 @@
 			]
 		},
 		{
+			"name": "BorkFilesSyntaxHighlighting",
+			"details": "https://github.com/frdmn/sublime-bork-files-syntax-highlighting",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Boron Color Scheme",
 			"details": "https://github.com/mjio/boron.tmtheme",
 			"labels": ["color scheme"],
@@ -1035,7 +1107,6 @@
 		{
 			"name": "BowerInjector",
 			"details": "https://github.com/ismnoiet/BowerInjector",
-			"issues": "https://github.com/ismnoiet/BowerInjector/issues",
 			"labels": ["bower injector","bower","inject","css","js"],
 			"releases": [
 				{
@@ -1142,6 +1213,17 @@
 			]
 		},
 		{
+			"name": "BracketSpacer",
+			"details": "https://github.com/mreq/BracketSpacer",
+			"labels": ["brackets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Brainfuck",
 			"details": "https://github.com/Drako/SublimeBrainfuck",
 			"releases": [
@@ -1168,6 +1250,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Breadcrumbs",
+			"details": "https://github.com/qbolec/Breadcrumbs",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1270,6 +1362,17 @@
 			]
 		},
 		{
+			"name": "BSScript",
+			"details": "https://github.com/rusiv/BSScript",
+			"labels": ["language syntax", "snippets", "build system", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bubububububad and Boneyfied Color Schemes",
 			"details": "https://github.com/eibbors/Bubububububad",
 			"labels": ["color scheme"],
@@ -1353,6 +1456,17 @@
 			]
 		},
 		{
+			"name": "Bump",
+			"details": "https://github.com/yavorsky/Bump",
+			"labels": ["dependencies", "package", "version"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bunting Language",
 			"details": "https://github.com/xhacker/Bunting.tmLanguage",
 			"labels": ["language syntax"],
@@ -1366,11 +1480,21 @@
 		{
 			"name": "Business Catalyst Liquid Snippets",
 			"details": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin",
-			"issues": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin/issues",
 			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BZW Language",
+			"details": "https://github.com/allejo/sublime-language-bzw",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

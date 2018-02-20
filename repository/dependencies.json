@@ -60,6 +60,21 @@
 			]
 		},
 		{
+			"name": "bson",
+			"load_order": "50",
+			"description": "Independent BSON codec for Python that doesn’t depend on MongoDB - https://github.com/py-bson/bson",
+			"author": "idleberg",
+			"issues": "https://github.com/idleberg/sublime-bson/issues",
+			"releases": [
+				{
+					"base": "https://github.com/idleberg/sublime-bson",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
 			"name": "bz2",
 			"load_order": "02",
 			"description": "Python bz2 module",
@@ -177,6 +192,20 @@
 			]
 		},
 		{
+			"name": "enum",
+			"load_order": "50",
+			"description": "Python enum module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/enum/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/enum",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "fileio",
 			"load_order": "01",
 			"description": "Python _fileio module",
@@ -221,6 +250,20 @@
 			]
 		},
 		{
+			"name": "jsonschema",
+			"load_order": "55",
+			"description": "An(other) implementation of JSON Schema for Python",
+			"author": "kylebebak",
+			"issues": "https://github.com/kylebebak/sublime-jsonschema/issues",
+			"releases": [
+				{
+					"base": "https://github.com/kylebebak/sublime-jsonschema",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "lxml",
 			"load_order": "10",
 			"description": "lxml",
@@ -259,7 +302,7 @@
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown-popups",
 					"tags": true,
-					"sublime_text": ">=3080"
+					"sublime_text": ">=3124"
 				}
 			]
 		},
@@ -287,6 +330,20 @@
 					"tags": true,
 					"sublime_text": "*",
 					"platforms": ["linux"]
+				}
+			]
+		},
+		{
+			"name": "natsort",
+			"load_order": "50",
+			"description": "Python natsort package",
+			"author": "alimony",
+			"issues": "https://github.com/alimony/sublime-natsort/issues",
+			"releases": [
+				{
+					"base": "https://github.com/alimony/sublime-natsort",
+					"tags": true,
+					"sublime_text": "*"
 				}
 			]
 		},
@@ -394,6 +451,20 @@
 			]
 		},
 		{
+			"name": "pathlib",
+			"load_order": "50",
+			"description": "Python pathlib module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/pathlib/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/pathlib",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "pathtools",
 			"load_order": "10",
 			"description": "Path utilities for Python https://pypi.python.org/pypi/pathtools",
@@ -404,6 +475,34 @@
 					"base": "https://github.com/vovkkk/sublime-pathtools",
 					"sublime_text": "*",
 					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pexpect",
+			"load_order": "01",
+			"description": "Python pexpect module",
+			"author": "varp",
+			"issues": "https://github.com/varp/sublime-pexpect/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/varp/sublime-pexpect",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "psutil",
+			"load_order": "01",
+			"description": "Python psutil module",
+			"author": "varp",
+			"issues": "https://github.com/varp/sublime-psutil/issues",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/varp/sublime-psutil",
 					"tags": true
 				}
 			]
@@ -452,6 +551,20 @@
 			]
 		},
 		{
+			"name": "pymdownx",
+			"author": "facelessuser",
+			"load_order": "50",
+			"description": "PyMdown Extensions for Python Markdown",
+			"issues": "https://github.com/facelessuser/sublime-pymdownx/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-pymdownx",
+					"tags": true,
+					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
 			"name": "python-jinja2",
 			"load_order": "51",
 			"description": "Python Jinja2 module",
@@ -491,6 +604,20 @@
 					"platforms": ["windows"],
 					"tags": true,
 					"sublime_text": ">=3000"
+				}
+			]
+		},
+		{
+			"name": "PythonDebugTools",
+			"author": "evandrocoan",
+			"load_order": "10",
+			"description": "Alternate simplified logging support",
+			"issues": "https://github.com/evandrocoan/PythonDebugTools/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/PythonDebugTools",
+					"sublime_text": ">=3114",
+					"tags": true
 				}
 			]
 		},
@@ -575,6 +702,20 @@
 					"base": "https://github.com/packagecontrol/requests-oauthlib",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "ruamel-yaml",
+			"load_order": "01",
+			"description": "Python ruamel.yaml module",
+			"author": "Thomas Smith",
+			"issues": "https://github.com/Thom1729/sublime-ruamel/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Thom1729/sublime-ruamel",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		},
@@ -747,6 +888,34 @@
 			]
 		},
 		{
+			"name": "TM1py",
+			"load_order": "99",
+			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
+			"author": "MariusWirtz",
+			"issues": "https://github.com/ajmyers/TM1py/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ajmyers/TM1py",
+					"tags": true,
+					"sublime_text": ">3092"
+				}
+			]
+		},
+		{
+			"name": "typing",
+			"load_order": "50",
+			"description": "Python typing module",
+			"author": "FichteFoll",
+			"issues": "https://github.com/packagecontrol/typing/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/typing",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		},
+		{
 			"name": "watchdog",
 			"load_order": "20",
 			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
@@ -786,6 +955,20 @@
 					"base": "https://github.com/idleberg/sublime-xmltodict",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "yaml_macros_engine",
+			"load_order": "50",
+			"description": "Engine for YAML Macros",
+			"author": "Thomas Smith",
+			"issues": "https://github.com/Thom1729/yaml-macros-engine/issues",
+			"releases": [
+				{
+					"base": "https://github.com/Thom1729/yaml-macros-engine",
+					"tags": true,
+					"sublime_text": ">=3000"
 				}
 			]
 		}
